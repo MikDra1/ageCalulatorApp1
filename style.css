@@ -78,7 +78,7 @@ h6 {
 .container {
   --custom-height: 25px;
   height: calc(100vh + var(--custom-height));
-  background-color: var(--Light-grey);
+  background-color: var(--Off-white);
   margin-top: calc(-1 * var(--custom-height));
   padding-top: var(--custom-height);
   display: grid;

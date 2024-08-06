@@ -34,8 +34,8 @@ const ageApi = async function () {
   textYears.textContent =
     +contentSpanYears.textContent === 1 ? "year" : "years";
   textMonths.textContent =
-    +contentSpanYears.textContent === 1 ? "month" : "months";
-  textDays.textContent = +contentSpanYears.textContent === 1 ? "day" : "days";
+    +contentSpanMonths.textContent === 1 ? "month" : "months";
+  textDays.textContent = +contentSpanDays.textContent === 1 ? "day" : "days";
   return data;
 };
 
